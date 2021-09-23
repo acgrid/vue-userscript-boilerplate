@@ -33,11 +33,10 @@ export default async (): Promise<Configuration> => {
       extensions: ['.ts', '.js']
     },
     devServer: {
-      allowedHosts: 'all',
-      client: undefined,
-      hot: false,
       host: '0.0.0.0',
-      port: 5000
+      port: 5000,
+      injectClient: false,
+      disableHostCheck: true
     },
     optimization: {
       minimize: true,

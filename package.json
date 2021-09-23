@@ -13,7 +13,7 @@
     "@types/node": "^16.9.6",
     "@types/parse-json": "^4.0.0",
     "@types/terser-webpack-plugin": "^4",
-    "@types/webpack-dev-server": "^4.1.0",
+    "@types/webpack-dev-server": "^3",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "eslint": "^7.32.0",
@@ -27,7 +27,7 @@
     "typescript": "^4.4.3",
     "webpack": "^4",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.2.1",
+    "webpack-dev-server": "^3",
     "webpack-userscript": "^2.5.8"
   },
   "dependencies": {
